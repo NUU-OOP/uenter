@@ -35,7 +35,7 @@ abstract class Account {
             this.password = password;
         }
         else {
-            Service.out.println("Password should be more than 8 characters");
+            System.out.println("Password should be more than 8 characters");
         }
     }
 
