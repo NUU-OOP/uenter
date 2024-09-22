@@ -7,6 +7,20 @@
     <list default="true" id="2dac97f2-e633-4a14-83e1-812f51392f5f" name="Changes" comment="V2">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Manager/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Professor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Report.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/additonal_classes/Insurance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/additonal_classes/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/admin/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/admin/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/admin/User2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/driver_role/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/driver_role/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/user1/user1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,24 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Bektashevna"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NUU-OOP/uenter.git",
-    "accountId": "1ec0f81c-3ad9-431c-9186-d023eed33fc6"
-  }
-}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
   <component name="ProjectId" id="2mOMDvGNbi4Oej7ruhKP0RaFFcJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,7 +61,6 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
