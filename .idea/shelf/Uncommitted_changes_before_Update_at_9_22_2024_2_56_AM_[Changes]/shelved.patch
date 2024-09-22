@@ -1,0 +1,126 @@
+Index: CarRentalSystem/src/main/java/org/example/Staff/Car.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CarRentalSystem/src/main/java/org/example/Staff/Car.java b/CarRentalSystem/src/main/java/org/example/Staff/Car.java
+new file mode 100644
+--- /dev/null	(date 1726998391176)
++++ b/CarRentalSystem/src/main/java/org/example/Staff/Car.java	(date 1726998391176)
+@@ -0,0 +1,63 @@
++package org.example.Staff;
++
++public class Car {
++    int carId;
++    String make;
++    String model;
++    Boolean availability;
++
++    public Car(int carId, String make, String model, Boolean availability) {
++        this.carId = carId;
++        this.make = make;
++        this.model = model;
++        this.availability = availability;
++    }
++    // Getters
++
++    public int getCarId() {
++        return carId;
++    }
++
++    public String getMake() {
++        return make;
++    }
++
++    public String getModel() {
++        return model;
++    }
++
++    public Boolean getAvailability() {
++        return availability;
++    }
++
++    // Setters
++
++    public void setCarId(int carId) {
++        this.carId = carId;
++    }
++
++    public void setMake(String make) {
++        this.make = make;
++    }
++
++    public void setModel(String model) {
++        this.model = model;
++    }
++
++    public void setAvailability(Boolean availability) {
++        this.availability = availability;
++    }
++
++
++    // Methods
++
++    public static boolean checkAvailability(){
++
++        return true;
++
++    }
++    public void updateStatus(){
++        System.out.println("Status Updated");
++    }
++
++}
+Index: CarRentalSystem/src/main/java/org/example/Staff/Staff.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CarRentalSystem/src/main/java/org/example/Staff/Staff.java b/CarRentalSystem/src/main/java/org/example/Staff/Staff.java
+new file mode 100644
+--- /dev/null	(date 1726998391171)
++++ b/CarRentalSystem/src/main/java/org/example/Staff/Staff.java	(date 1726998391171)
+@@ -0,0 +1,43 @@
++package org.example.Staff;
++
++public class Staff {
++    int staffId;
++    String expertise;
++
++    public Staff(int staffId, String expertise) {
++        this.staffId = staffId;
++        this.expertise = expertise;
++    }
++    // Getters
++
++    public int getStaffId() {
++        return staffId;
++    }
++
++    public String getExpertise() {
++        return expertise;
++    }
++
++    // Setters
++
++
++    public void setStaffId(int staffId) {
++        this.staffId = staffId;
++    }
++
++    public void setExpertise(String expertise) {
++        this.expertise = expertise;
++    }
++
++    // Methods
++
++    public void scheduleMaintenance(){
++
++    }
++
++    public void recordMaintenance(){
++
++
++    }
++
++}
