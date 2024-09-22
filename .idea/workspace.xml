@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dac97f2-e633-4a14-83e1-812f51392f5f" name="Changes" comment="V2" />
+    <list default="true" id="2dac97f2-e633-4a14-83e1-812f51392f5f" name="Changes" comment="V2">
+      <change afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/AdditionalDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/BillItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/VehicleReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -126,8 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="V2" />
     <MESSAGE value="created CashTransaction, CheckTransaction and CreditCardTransaction classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created CashTransaction, CheckTransaction and CreditCardTransaction classes" />
+    <MESSAGE value="V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2" />
   </component>
 </project>
