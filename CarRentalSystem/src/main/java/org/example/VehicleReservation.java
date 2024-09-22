@@ -19,12 +19,12 @@ public class VehicleReservation {
     private String returnLocationName;
 
 
-    private Timestamp dueDate;
+    private LocalDate dueDate;
 
-    public VehicleReservation(String reservationNumber, Date creationDate, Timestamp returnDate, String pickupLocationName, String returnLocationName, Timestamp dueDate) {
+    public VehicleReservation(String reservationNumber, Date creationDate, LocalDate returnDate, String pickupLocationName, String returnLocationName, LocalDate dueDate) {
         this.reservationNumber = reservationNumber;
         this.creationDate = creationDate;
-        //this.returnDate = returnDate;
+        this.returnDate = returnDate;
         this.pickupLocationName = pickupLocationName;
         this.returnLocationName = returnLocationName;
         this.dueDate = dueDate;
@@ -38,13 +38,13 @@ public class VehicleReservation {
         return creationDate;
     }
 
-    public Timestamp getDueDate() {
+    public LocalDate getDueDate() {
         return dueDate;
     }
-//
-//    public Timestamp getReturnDate() {
-//        //return returnDate;
-//    }
+
+    public LocalDate getReturnDate() {
+        return returnDate;
+    }
 
     public String getPickupLocationName() {
         return pickupLocationName;
@@ -56,7 +56,7 @@ public class VehicleReservation {
 
 
 
-    public static void fetchDetails(){
-//        System.out.println("Reservation Number: "+ getReservationNumber()+ "Creation Date" + getCreationDate()+ "Due Date"+ getDueDate()+ "Return Date"+ getReturnDate()+"Pickup Location" + getPickupLocationName() + "Return location "+ getReturnLocationName());
+    public void fetchDetails(){
+     System.out.println("Reservation Number: "+ getReservationNumber()+ "Creation Date" + getCreationDate()+ "Due Date"+ getDueDate()+ "Return Date"+ getReturnDate()+"Pickup Location" + getPickupLocationName() + "Return location "+ getReturnLocationName());
     }
 }

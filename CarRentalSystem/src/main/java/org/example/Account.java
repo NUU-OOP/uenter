@@ -1,10 +1,10 @@
 package org.example;
 
 abstract class Account {
-    int id;
-    String password;
-    AccountStatus status;
-    Person person;
+    private int id;
+    private String password;
+    private AccountStatus status;
+    private Person person;
 
     // Getters
 
