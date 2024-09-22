@@ -56,7 +56,7 @@ public class VehicleReservation {
 
 
 
-    public static void fetchDetails(){
-//        System.out.println("Reservation Number: "+ getReservationNumber()+ "Creation Date" + getCreationDate()+ "Due Date"+ getDueDate()+ "Return Date"+ getReturnDate()+"Pickup Location" + getPickupLocationName() + "Return location "+ getReturnLocationName());
+    public void fetchDetails(){
+     System.out.println("Reservation Number: "+ getReservationNumber()+ "Creation Date" + getCreationDate()+ "Due Date"+ getDueDate()+ "Return Date"+ getReturnDate()+"Pickup Location" + getPickupLocationName() + "Return location "+ getReturnLocationName());
     }
 }
