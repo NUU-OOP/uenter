@@ -5,5 +5,11 @@ public class Insurance {
     private String provider;
     private double coverage;
 
+    public void addInsurance() {
 
+    }
+
+    public void viewInsuranceDetails() {
+
+    }
 }
