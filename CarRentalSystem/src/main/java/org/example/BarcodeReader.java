@@ -3,6 +3,7 @@ package org.example;
 import java.util.Date;
 
 public class BarcodeReader extends Barcode {
+
     String id;
     Date registeredAt;
     boolean active;

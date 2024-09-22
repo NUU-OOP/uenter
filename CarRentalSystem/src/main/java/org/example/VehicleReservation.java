@@ -3,6 +3,7 @@ package org.example;
 
 
 import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class VehicleReservation {
@@ -12,7 +13,7 @@ public class VehicleReservation {
     private enum ReservationStatus{
         ACTIVE, ENDED
     }
-    private Timestamp returnDate;
+    private LocalDate returnDate;
 
     private String pickupLocationName;
     private String returnLocationName;
@@ -23,7 +24,7 @@ public class VehicleReservation {
     public VehicleReservation(String reservationNumber, Date creationDate, Timestamp returnDate, String pickupLocationName, String returnLocationName, Timestamp dueDate) {
         this.reservationNumber = reservationNumber;
         this.creationDate = creationDate;
-        this.returnDate = returnDate;
+        //this.returnDate = returnDate;
         this.pickupLocationName = pickupLocationName;
         this.returnLocationName = returnLocationName;
         this.dueDate = dueDate;
@@ -40,10 +41,10 @@ public class VehicleReservation {
     public Timestamp getDueDate() {
         return dueDate;
     }
-
-    public Timestamp getReturnDate() {
-        return returnDate;
-    }
+//
+//    public Timestamp getReturnDate() {
+//        //return returnDate;
+//    }
 
     public String getPickupLocationName() {
         return pickupLocationName;

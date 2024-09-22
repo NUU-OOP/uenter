@@ -1,5 +1,5 @@
 package org.example;
 
-public enum AccauntStatus {
+public enum AccountStatus {
     Active, closed, Canceled, Blacklisted, None
 }

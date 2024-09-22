@@ -3,7 +3,7 @@ package org.example;
 abstract class Account {
     int id;
     String password;
-    AccauntStatus status;
+    AccountStatus status;
     Person person;
 
     // Getters
@@ -16,7 +16,7 @@ abstract class Account {
         return password;
     }
 
-    public AccauntStatus getStatus() {
+    public AccountStatus getStatus() {
         return status;
     }
 
@@ -39,7 +39,7 @@ abstract class Account {
         }
     }
 
-    public void setStatus(AccauntStatus status) {
+    public void setStatus(AccountStatus status) {
         this.status = status;
     }
 
