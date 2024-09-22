@@ -31,8 +31,12 @@ abstract class Account {
     }
 
     public void setPassword(String password) {
-        if (password.length()>=8 && )
-        this.password = password;
+        if (password.length()>=8) {
+            this.password = password;
+        }
+        else {
+            System.out.println("Password should be more than 8 characters");
+        }
     }
 
     public void setStatus(AccauntStatus status) {
