@@ -1,5 +1,5 @@
 package org.example;
 
 public enum AccountStatus {
-    Active, closed, Canceled, Blacklisted, None
+    Active, Closed, Canceled, Blacklisted, None
 }
