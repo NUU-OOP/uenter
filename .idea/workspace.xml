@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dac97f2-e633-4a14-83e1-812f51392f5f" name="Changes" comment="add driver" />
+    <list default="true" id="2dac97f2-e633-4a14-83e1-812f51392f5f" name="Changes" comment="V2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarRentalSystem/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2mOMDvGNbi4Oej7ruhKP0RaFFcJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -41,7 +44,6 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -133,7 +135,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="V2" />
-    <MESSAGE value="add driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="add driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="V2" />
   </component>
 </project>
