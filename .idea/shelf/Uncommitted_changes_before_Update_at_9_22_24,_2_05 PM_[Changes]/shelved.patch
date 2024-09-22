@@ -1,0 +1,31 @@
+Index: CarRentalSystem/src/main/java/org/example/customer/Customer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example.customer;\n\npublic class Customer {\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CarRentalSystem/src/main/java/org/example/customer/Customer.java b/CarRentalSystem/src/main/java/org/example/customer/Customer.java
+--- a/CarRentalSystem/src/main/java/org/example/customer/Customer.java	(revision d8fd2572cd3880657a529ea8e85dca2ed8ffe2f9)
++++ b/CarRentalSystem/src/main/java/org/example/customer/Customer.java	(date 1726978031864)
+@@ -1,4 +1,5 @@
+ package org.example.customer;
+ 
+ public class Customer {
++
+ }
+Index: CarRentalSystem/src/main/java/org/example/admin/Admin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CarRentalSystem/src/main/java/org/example/admin/Admin.java b/CarRentalSystem/src/main/java/org/example/admin/Admin.java
+new file mode 100644
+--- /dev/null	(date 1726995897462)
++++ b/CarRentalSystem/src/main/java/org/example/admin/Admin.java	(date 1726995897462)
+@@ -0,0 +1,5 @@
++package org.example.admin;
++
++public class Admin {
++    private int ID;
++}
