@@ -2,26 +2,22 @@ package org.example;
 
 
 
-import java.sql.Timestamp;
+
 import java.time.LocalDate;
-import java.util.Date;
+
 
 public class VehicleReservation {
 
     private String reservationNumber;
-    private Date creationDate;
-    private enum ReservationStatus{
-        ACTIVE, ENDED
-    }
+    private LocalDate creationDate;
     private LocalDate returnDate;
-
     private String pickupLocationName;
     private String returnLocationName;
-
-
     private LocalDate dueDate;
+    private Bill bill;
 
-    public VehicleReservation(String reservationNumber, Date creationDate, LocalDate returnDate, String pickupLocationName, String returnLocationName, LocalDate dueDate) {
+
+    public VehicleReservation(String reservationNumber, LocalDate creationDate, LocalDate returnDate, String pickupLocationName, String returnLocationName, LocalDate dueDate) {
         this.reservationNumber = reservationNumber;
         this.creationDate = creationDate;
         this.returnDate = returnDate;
@@ -34,7 +30,7 @@ public class VehicleReservation {
         return reservationNumber;
     }
 
-    public Date getCreationDate() {
+    public LocalDate getCreationDate() {
         return creationDate;
     }
 
@@ -56,7 +52,17 @@ public class VehicleReservation {
 
 
 
-    public void fetchDetails(){
-     System.out.println("Reservation Number: "+ getReservationNumber()+ "Creation Date" + getCreationDate()+ "Due Date"+ getDueDate()+ "Return Date"+ getReturnDate()+"Pickup Location" + getPickupLocationName() + "Return location "+ getReturnLocationName());
+    public void fetchDetails(String reservationNumber) {
+        if (this.reservationNumber.equals(reservationNumber)) {
+            System.out.println("Reservation Number: " + getReservationNumber() +
+                    "\nCreation Date: " + getCreationDate() +
+                    "\nDue Date: " + getDueDate() +
+                    "\nReturn Date: " + getReturnDate() +
+                    "\nPickup Location: " + getPickupLocationName() +
+                    "\nReturn Location: " + getReturnLocationName());
+
+        } else {
+            System.out.println("Reservation number not found.");
+        }
     }
 }
